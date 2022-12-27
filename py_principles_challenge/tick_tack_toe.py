@@ -29,3 +29,7 @@ print(get_row_col('c3'))
 #     row = int(number) - 1
 #     column = translate[letter]
 #     return (row, column)
+
+# def get_row_col(cor):
+#     cor.lower().split()
+#     return (int(cor[1])-1,ord(cor[0]) - 65)

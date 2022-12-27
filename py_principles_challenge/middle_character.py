@@ -14,11 +14,11 @@ from math import floor
 
 
 def mid(string):
-    has_middle = len(string) % 2
+    has_middle = len(string) % 2 == 0
     middle_character = len(string) // 2
-    if has_middle == 0:
+    if has_middle:
         return ""
-    elif has_middle == 1:
+    elif has_middle == False:
         return string[middle_character]
 
     
